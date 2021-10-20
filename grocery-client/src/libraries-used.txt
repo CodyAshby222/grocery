@@ -1,0 +1,10 @@
+Note For Grader: For this assignment I used
+
+1) AOS-Animate On Scroll, throughout all pages.
+2) Toastify (For Successfully Deleting A Grocery).
+
+Other Resources Used:
+-LocalStorage
+-MongoDB
+-Token Authorization
+-Custom API

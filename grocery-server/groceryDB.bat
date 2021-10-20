@@ -1,0 +1,1 @@
+"C:\Program Files\MongoDB\Server\4.4\bin\mongod" --dbpath "C:\NEUMONT\MTM320_AdvanceWebScripting\FinalGroceryBackend\data"

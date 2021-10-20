@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.green-section {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #effdee;
+}
+
+.green-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #effdee;
+  padding-top: 75px;
+}
+
+.green-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+.navbar-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 75px;
+  background-color: #ffffff;
+}
+.border-line {
+  position: fixed;
+  top: 75px;
+  z-index: 15;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px 0 20px;
+}
+
+.btn-group {
+  margin-top: 40px;
+}
+
+.btn {
+  margin-right: 15px;
+  padding: 10px 20px;
+  background-color: #00d748;
+  border: 1px solid #00d748;
+  font-weight: 700;
+  border-radius: 5px;
+  color: #ffffff;
+  user-select: none;
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #00c648;
+}
+
+.btn-outline:hover {
+  background-color: #00d748;
+  color: #ffffff;
+}
+
+.btn-outline {
+  margin-right: 15px;
+  padding: 10px 20px;
+  border: 1px solid #00d748;
+  font-weight: 700;
+  border-radius: 5px;
+  color: #00d748;
+  user-select: none;
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.logout-btn {
+  margin-right: 15px;
+  padding: 10px 20px;
+  border: 1px solid #ff0000;
+  font-weight: 700;
+  border-radius: 5px;
+  color: #ff0000;
+  user-select: none;
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+.title-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 30px;
+  font-family: "Pattaya", sans-serif;
+  text-decoration: none;
+  color: #434343;
+}
+
+.image {
+  width: 500px;
+}
+
+.image-2 {
+  width: 400px;
+  margin-top: 20px;
+}
+.image-3 {
+  height: 400px;
+}
+
+.sm-image {
+  margin: 20px;
+  width: 100px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grocery-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.grocery-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow-wrap: break-word;
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.error {
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: bold;
+  color: red;
+}
+
+.grocery-image {
+  height: 150px;
+  width: 92%;
+  object-fit: contain;
+  margin: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+@media all and (max-width: 800px) {
+  .content {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-align: center;
+  }
+
+  h1,
+  h2 {
+    padding-top: 30px;
+  }
+  .image {
+    margin: 50px;
+    width: 320px;
+  }
+  .image-2 {
+    width: 300px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+  .btn-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .form-content {
+    flex-direction: column-reverse;
+  }
+  form {
+    margin-bottom: 50px;
+  }
+}
+
+@media all and (max-width: 450px) {
+  body {
+    font-size: 10px;
+  }
+  .btn,
+  .btn-outline,
+  .logout-btn {
+    padding: 3px 7px;
+  }
+  .image,
+  .image-2,
+  .image-3 {
+    width: 250px;
+    height: 200px;
+    margin: 20px 0;
+    padding: 0;
+  }
+  .content {
+    margin: 0;
+  }
+}
